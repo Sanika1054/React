@@ -22,9 +22,7 @@ function App() {
     }
     else{
       console.log("counter can't go below 0");
-    }
-   
-    
+    }  
   }
   
   return (
@@ -33,9 +31,7 @@ function App() {
       <h2>Counter value: {counter}</h2>
       <button onClick={addValue}>Add value</button>
       <br/>
-      <button onClick={removeValue}>remove value</button>
-
-      
+      <button onClick={removeValue}>remove value</button>  
     </>
   )
 }
